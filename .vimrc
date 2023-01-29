@@ -16,12 +16,17 @@ filetype indent on
 " Turn syntax highlighting on.
 syntax on
 
+" Add Title to Vim
+set title
+
 " Add numbers to each line on the left-hand side.
 set number
 
 
 " Extra Settings ---------------------------------------------------
 
+" Add Mouse support
+set mouse=a
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
