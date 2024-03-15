@@ -72,4 +72,4 @@ Feel free to fork this repository and customize it for your setup. Pull requests
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE-MIT.txt](LICENSE-MIT.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
