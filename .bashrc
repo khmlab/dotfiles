@@ -1,3 +1,8 @@
-#!/usr/bin/env bash
+# If not running interactively, exit script
+[[ $- != *i* ]] && return
 
-[ -n "$PS1" ] && source ~/.bash_profile;
+# Load dotfiles:
+for file in ~/.{bash_prompt,aliases}; do
+    [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;

@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Source Code Pro, 'JetBrains Mono', monospace",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "450",
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "editor.quickSuggestionsDelay": 100,
+    "git.autofetch": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": false,
+    "workbench.settings.editor": "json"
+}

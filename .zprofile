@@ -1,7 +1,3 @@
-# Load .bashrc if available
-if [ -f ~/.bashrc ]; then
-    source ~/.bashrc
-fi
 
 # Set PATHS
 if [ -x "/opt/homebrew/bin/brew" ]; then
