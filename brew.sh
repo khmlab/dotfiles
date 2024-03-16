@@ -74,7 +74,7 @@ apps=(
     "discord"
     "pycharm"
     "postman"
-    "logitech-g-hub"
+    #"logitech-g-hub"
     "protonvpn"
     "proton-drive"
 )
