@@ -22,13 +22,21 @@ for file in "${files[@]}"; do
     ln -sf "${dotfiledir}/.${file}" "${HOME}/.${file}"
 done
 
-# Run the MacOS Script
-./macOS.sh
 
-# Run the Homebrew Script
-./brew.sh
-
-# Run VS Code Script
-./vscode.sh
-
-echo "Installation Complete!"
+if [[ "$(uname)" == "Darwin" ]]; then
+    echo "Detected macOS, running setup for macOS"
+    # Add macOS specific commands here
+    # Run the MacOS Script
+    ./macOS.sh
+    # Run the Homebrew Script
+    ./brew.sh
+    # Run VS Code Script
+    ./vscode.sh
+    echo "Installation Complete!"
+elif [[ "$(uname)" == "Linux" ]]; then
+    echo "Running on Linux"
+    # Add Linux specific commands here
+else
+    echo "Unknown operating system"
+    # Handle the case of an unknown operating system here
+fi
