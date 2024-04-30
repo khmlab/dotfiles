@@ -74,9 +74,10 @@ apps=(
     "discord"
     "pycharm"
     "postman"
-    #"logitech-g-hub"
+    "logitech-g-hub"
     "protonvpn"
     "proton-drive"
+    "db-browser-for-sqlite"
 )
 
 # Loop over the array to install each application.
