@@ -36,6 +36,7 @@ packages=(
     "pylint"
     "black"
     "node"
+    "neovim"
 )
 
 # Loop over the array to install each application.
@@ -74,7 +75,7 @@ apps=(
     "discord"
     "pycharm"
     "postman"
-    "logitech-g-hub"
+    "iterm2"
     "protonvpn"
     "proton-drive"
     "db-browser-for-sqlite"
